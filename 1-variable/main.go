@@ -15,6 +15,9 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(y)
 
+	y = 6.6
+	fmt.Println(y)
+
 	fmt.Printf("static type x : %T\n", x)
 	fmt.Printf("static type y : %T\n", y)
 
@@ -26,6 +29,10 @@ func main() {
 
 	fmt.Printf("dynamic type z : %T\n", z)
 	fmt.Printf("dynamic type i : %T\n", i)
+
+	i = 60
+
+	fmt.Println(i)
 
 	t := 6
 	p := 3

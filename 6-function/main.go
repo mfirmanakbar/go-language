@@ -12,6 +12,9 @@ func main() {
 	z := add(x, y)
 	fmt.Println("hasil z adalah ", z)
 
+	var stx string = "hasilnya: "
+	fmt.Println(stx, z)
+
 	name := "firman"
 	result := hello(name)
 	fmt.Println(result)

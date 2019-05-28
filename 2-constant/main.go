@@ -1,21 +1,21 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 const A string = "Hello, this is constant variable ..."
 
-func main()  {
+func main() {
 
-   fmt.Println(A)
+	fmt.Println(A)
 
-   const X int = 10
+	const X int = 10
 
-   fmt.Println(X)
+	fmt.Println(X)
 
-   z := 50 / X
+	z := 50 / X
 
-   fmt.Println(z)
+	fmt.Println(z)
 
 }
