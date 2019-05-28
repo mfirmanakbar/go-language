@@ -33,6 +33,7 @@ func main() {
 		return x + y
 	}
 
+	//function as value
 	helloVal := func(name string) string {
 		return fmt.Sprintf("Hai %s", name)
 	}
